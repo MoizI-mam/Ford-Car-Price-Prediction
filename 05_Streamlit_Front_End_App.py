@@ -7,7 +7,7 @@ st.set_page_config(page_title="Ford Car Price Predictor",page_icon="🚘",layout
 # Load model & columns
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("06_Best_model.pkl")
+    model = joblib.load("06_Best_Model.pkl")
     columns = joblib.load("07_Columns.pkl")
     return model, columns
 
