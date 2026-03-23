@@ -129,6 +129,6 @@ elif st.session_state.step == 3:
         st.write(f"- Tax: £{st.session_state.tax}")
         st.write(f"- Engine Size: {st.session_state.engine_size}L")
 
-        if st.button("🔄 Start Over",use_container_width=True):
-            st.session_state.step == 1
-            st.rerun()    
+    if st.button("🔄 Start Over",use_container_width=True):
+        st.session_state.step == 1
+        st.rerun()    
